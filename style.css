@@ -1,0 +1,40 @@
+body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f8ff; /* Azul muy claro */
+        }
+        .section-bg-blue {
+            background-color: #e0f2fe; /* Azul claro */
+        }
+        .header-bg-blue {
+            background-color: #90cdf4; /* Azul medio */
+        }
+        .text-blue-dark {
+            color: #1e3a8a; /* Azul oscuro */
+        }
+        .btn-primary {
+            background-color: #3b82f6; /* Azul primario */
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #2563eb; /* Azul primario más oscuro al pasar el ratón */
+        }
+        .social-icon, .tech-icon {
+            color: #3b82f6; /* Azul primario */
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        .social-icon:hover, .tech-icon:hover {
+            color: #2563eb; /* Azul primario más oscuro al pasar el ratón */
+            transform: translateY(-5px); /* Pequeño efecto de elevación al pasar el ratón */
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
