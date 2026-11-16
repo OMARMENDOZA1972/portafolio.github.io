@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio Personal</title>
+    <title>Omar Abud - Desarrollador PHP & MySQL</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="style.css"><style></style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="text-gray-800">
 
-    <header class="header-bg-blue p-6 shadow-md rounded-b-xl">
+    <header class="header-bg-blue p-6 shadow-md rounded-b-xl sticky top-0 z-50">
         <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
-            <h1 class="text-3xl font-bold text-white mb-4 md:mb-0">Mi Portfolio</h1>
+            <h1 class="text-3xl font-bold text-white mb-4 md:mb-0">Omar Abud | Portfolio</h1>
             <nav>
                 <ul class="flex flex-wrap justify-center gap-4 text-white font-medium">
                     <li><a href="#sobre-mi" class="hover:text-blue-dark transition-colors duration-300">Sobre Mí</a></li>
-                    <li><a href="#habilidades" class="hover:text-blue-dark transition-colors duration-300">Mis Habilidades</a></li>
-                    <li><a href="#proyectos-anteriores" class="hover:text-blue-dark transition-colors duration-300">Trab.Anteriores</a></li>
-                    <li><a href="#proyectos-actuales" class="hover:text-blue-dark transition-colors duration-300">Trab.Actuales</a></li>
-                    <li><a href="#proyectos-futuros" class="hover:text-blue-dark transition-colors duration-300">Trab.Futuros</a></li>
+                    <li><a href="#habilidades" class="hover:text-blue-dark transition-colors duration-300">Habilidades</a></li>
+                    <li><a href="#proyectos-actuales" class="hover:text-blue-dark transition-colors duration-300">Proyectos PHP/MySQL</a></li>
+                    <li><a href="#experiencia" class="hover:text-blue-dark transition-colors duration-300">Experiencia</a></li>
                     <li><a href="#contacto" class="hover:text-blue-dark transition-colors duration-300">Contacto</a></li>
                 </ul>
             </nav>
@@ -30,259 +29,139 @@
     <section id="sobre-mi" class="section-bg-blue py-16 px-4 rounded-xl m-4 shadow-lg">
         <div class="container mx-auto flex flex-col lg:flex-row items-center gap-8">
             <div class="w-full lg:w-1/3 flex justify-center">
-                <img src="img/yo.jpg" alt="[Image of a person]" class="rounded-full shadow-lg border-4 border-white object-cover w-64 h-64">
+                <img src="img/yo.jpg" alt="Foto de perfil de Omar Abud" class="rounded-full shadow-lg border-4 border-white object-cover w-64 h-64">
             </div>
             <div class="w-full lg:w-2/3 text-center lg:text-left">
                 <h2 class="text-4xl font-extrabold text-blue-dark mb-4">¡Hola! Soy Omar Abud</h2>
                 <p class="text-lg leading-relaxed mb-6">
-                    Soy un desarrollador Web Full-stack, apasionado por la nuevas tecnologias. Mi objetivo es ofrecer el mejor producto del mercado.
-                    Con conocimientos  en HTML, CSS y JavaScript, me dedico a realizar portfolios y paginas web. Tambien hago de Community Manager.
-                    Me encanta resolver problemas complejos y crear soluciones innovadoras que generen un impacto positivo.
+                    Desarrollador Web enfocado en el backend con <strong class="text-blue-dark">PHP y MySQL</strong>, complementado con una sólida trayectoria de más de 25 años en logística, administración y gestión empresarial. 
+                    Combino el rigor de los procesos de negocio con soluciones tecnológicas robustas, diseñando bases de datos relacionales, paneles administrativos y aplicaciones funcionales orientadas a resultados reales.
                 </p>
                 <div class="flex flex-wrap justify-center lg:justify-start gap-4">
                     <a href="#contacto" class="btn-primary">Contáctame</a>
-                    <a href="Curriculum-Vitae-OMAR-ABUD.pdf" target="_blank" class="btn-primary bg-blue-600 hover:bg-blue-700">Descargar CV</a>
+                    <a href="curriculumvitae.html" target="_blank" class="btn-primary bg-blue-600 hover:bg-blue-700">Ver Currículum</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-12 px-4">
+    <!-- Habilidades Técnicas -->
+    <section id="habilidades" class="py-16 px-4">
         <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold text-blue-dark mb-8">Datos Personales</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="card p-6">
-                    <h3 class="text-xl font-semibold text-blue-dark mb-2">Ubicación</h3>
-                    <p class="text-gray-700">Mendoza, Argentina</p>
-                </div>
-                <div class="card p-6">
-                    <h3 class="text-xl font-semibold text-blue-dark mb-2">Email</h3>
-                    <p class="text-gray-700"><a href="mailto:oaamendoza1972@gmail.com" class="text-blue-500 hover:underline">oaamendoza1972@gmail.com</a></p>
-                </div>
-                <div class="card p-6">
-                    <h3 class="text-xl font-semibold text-blue-dark mb-2">Teléfono</h3>
-                    <p class="text-gray-700"><a href="tel:+5492611234567" class="text-blue-500 hover:underline">+54 9 261 2450078</a></p>
-                </div>
-                <div class="card p-6">
-                    <h3 class="text-xl font-semibold text-blue-dark mb-2">Idiomas</h3>
-                    <p class="text-gray-700">Español (Nativo), Inglés (Intermedio), Italiano (Intermedio)</p>
-                </div>
-                <div class="card p-6">
-                    <h3 class="text-xl font-semibold text-blue-dark mb-2">Habilidades</h3>
-                    <p class="text-gray-700">Desarrollo Web, Community Manager, Gestión de Proyectos, Marketing Digital, Diseños 3D</p>
-                </div>
-                <div class="card p-6">
-                    <h3 class="text-xl font-semibold text-blue-dark mb-2">Intereses</h3>
-                    <p class="text-gray-700">Tecnología, Viajes, Fotografía, Autos</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="habilidades" class="section-bg-blue py-16 px-4 rounded-xl m-4 shadow-lg">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold text-blue-dark mb-10">Habilidades Técnicas</h2>
+            <h2 class="text-3xl font-bold text-blue-dark mb-10">Stack Tecnológico y Habilidades</h2>
             <div class="flex flex-wrap justify-center gap-8">
-                <div class="flex flex-col items-center p-4 card">
-                    <i class="fab fa-html5 text-6xl tech-icon mb-2" style="color: #E34F26;"></i>
-                    <p class="text-lg font-medium text-blue-dark">HTML5</p>
-                </div>
-                <div class="flex flex-col items-center p-4 card">
-                    <i class="fab fa-css3-alt text-6xl tech-icon mb-2" style="color: #1572B6;"></i>
-                    <p class="text-lg font-medium text-blue-dark">CSS3</p>
-                </div>
-                <div class="flex flex-col items-center p-4 card">
-                    <i class="fab fa-js-square text-6xl tech-icon mb-2" style="color: #F7DF1E;"></i>
-                    <p class="text-lg font-medium text-blue-dark">JavaScript</p>
-                </div>
-                <div class="flex flex-col items-center p-4 card">
-                    <i class="fab fa-git-alt text-6xl tech-icon mb-2" style="color: #F05032;"></i>
-                    <p class="text-lg font-medium text-blue-dark">Git</p>
-                </div>
-                <div class="flex flex-col items-center p-4 card">
-                    <i class="fab fa-react text-6xl tech-icon mb-2" style="color: #61DAFB;"></i>
-                    <p class="text-lg font-medium text-blue-dark">React</p>
-                </div>
-                <div class="flex flex-col items-center p-4 card">
-                    <i class="fab fa-node-js text-6xl tech-icon mb-2" style="color: #6DA55F;"></i>
-                    <p class="text-lg font-medium text-blue-dark">Node.js</p>
-                </div>
-                <div class="flex flex-col items-center p-4 card">
+                <div class="flex flex-col items-center p-4 card w-36">
                     <i class="fab fa-php text-6xl tech-icon mb-2" style="color: #7A86B8;"></i>
                     <p class="text-lg font-medium text-blue-dark">PHP</p>
                 </div>
-                <div class="flex flex-col items-center p-4 card">
-                    <i class="fas fa-cube text-6xl tech-icon mb-2" style="color: #6C5B7B;"></i>
-                    <p class="text-lg font-medium text-blue-dark">Rhino 3D</p>
+                <div class="flex flex-col items-center p-4 card w-36">
+                    <i class="fas fa-database text-6xl tech-icon mb-2" style="color: #00758F;"></i>
+                    <p class="text-lg font-medium text-blue-dark">MySQL</p>
                 </div>
-                <div class="flex flex-col items-center p-4 card">
-                    <i class="fas fa-vector-square text-6xl tech-icon mb-2" style="color: #4CAF50;"></i>
-                    <p class="text-lg font-medium text-blue-dark">Vectorworks</p>
+                <div class="flex flex-col items-center p-4 card w-36">
+                    <i class="fab fa-html5 text-6xl tech-icon mb-2" style="color: #E34F26;"></i>
+                    <p class="text-lg font-medium text-blue-dark">HTML5</p>
                 </div>
-                <div class="flex flex-col items-center p-4 card">
-                    <i class="fas fa-desktop text-6xl tech-icon mb-2" style="color: #217346;"></i>
-                    <p class="text-lg font-medium text-blue-dark">Microsoft Office</p>
+                <div class="flex flex-col items-center p-4 card w-36">
+                    <i class="fab fa-css3-alt text-6xl tech-icon mb-2" style="color: #1572B6;"></i>
+                    <p class="text-lg font-medium text-blue-dark">CSS3 / Tailwind</p>
                 </div>
-                <div class="flex flex-col items-center p-4 card">
-                    <i class="fas fa-video text-6xl tech-icon mb-2" style="color: #b87beb;"></i>
-                    <p class="text-lg font-medium text-blue-dark">Sony Vegas</p>
+                <div class="flex flex-col items-center p-4 card w-36">
+                    <i class="fab fa-js-square text-6xl tech-icon mb-2" style="color: #F7DF1E;"></i>
+                    <p class="text-lg font-medium text-blue-dark">JavaScript</p>
                 </div>
-                <div class="flex flex-col items-center p-4 card">
-                    <i class="fas fa-users text-6xl tech-icon mb-2" style="color: #1c1a1d;"></i>
-                    <p class="text-lg font-medium text-blue-dark">Community Manager</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="proyectos-anteriores" class="section-bg-blue py-16 px-4 rounded-xl m-4 shadow-lg">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold text-blue-dark mb-10">Trabajos Anteriores</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="card p-6">
-                    <img src="img/logo shopping.jpg" alt="[Image of Project 1]" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h3 class="text-xl font-semibold text-blue-dark mb-2">Mendoza Plaza Shopping</h3>
-                    <p class="text-gray-700 mb-4"><strong>Responsable de compras y logistica.</strong> <br> Control de stock - Gestión de Compras para Mantenimiento Edilicio -
-                    Contratación y control de empresas tercerizadas (Limpieza, Refacciones) - Coordinación de Promociones del
-                    Área de Marketing (contratación y control de personal para promoción) 
-                    - Manejo de Sistema de gestión SAP y JDEdwars.</p>
-                    
-                </div>
-                <div class="card p-6">
-                    <img src="img/logo Nevada.jpg" alt="[Image of Project 2]" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h3 class="text-xl font-semibold text-blue-dark mb-2">Tarjeta Nevada</h3>
-                    <p class="text-gray-700 mb-4"><strong>Tesorero y Cajero Principal</strong> <br>Encargado de la Tesoreria - Reposicion de cajero automatico - Control y gestion de recurso para cobranzas
-                    - Control de viaticos del personal - Capacitador de Sistema LEAN -
-                    Control de venta y reposicion de entradas de espectaculos.</p>
-                    
-                </div>
-                <div class="card p-6">
-                    <img src="img/logo montemar.jpg" alt="[Image of Project 3]" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h3 class="text-xl font-semibold text-blue-dark mb-2">Montemar Compañia financiera</h3>
-                    <p class="text-gray-700 mb-4"><strong>Cajero</strong> <br>Cobranzas de impuestos y tarjetas - Cambio de moneda extranjeras (Dolares , Euro, Reales)</p>
-                    
+                <div class="flex flex-col items-center p-4 card w-36">
+                    <i class="fab fa-git-alt text-6xl tech-icon mb-2" style="color: #F05032;"></i>
+                    <p class="text-lg font-medium text-blue-dark">Git / GitHub</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="proyectos-actuales" class="py-16 px-4">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold text-blue-dark mb-10">Proyectos Actuales</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="card p-6">
-                    <img src="img/Captura de pantalla 2025-05-25 195544.png" alt="[Image of Current Project 1]" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h3 class="text-xl font-semibold text-blue-dark mb-2">Pagina Web dedicada a Africa</h3>
-                    <p class="text-gray-700 mb-4">Realizacion de pagina dedicada al continente Africano, siendo mi primera pagina Web. Aun esta en desarrollo, se puede ver en GitHub.</p>
-                    <div class="flex justify-center gap-4 mt-4">
-                        <a href="#" class="btn-primary text-sm">Más Información</a>
-                        <a href="https://omarmendoza1972.github.io/africa/" target="_blank" class="btn-primary bg-gray-700 hover:bg-gray-800 text-sm flex items-center gap-2" aria-label="GitHub del Proyecto 1">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
+<!-- Proyectos PHP, MySQL y ERP -->
+<section id="proyectos-actuales" class="section-bg-blue py-16 px-4 rounded-xl m-4 shadow-lg">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold text-blue-dark mb-4">Desarrollo de Sistemas ERP, PHP y MySQL</h2>
+        <p class="text-gray-700 mb-10 max-w-2xl mx-auto">Soluciones de software empresariales y de gestión integral desarrolladas a medida para la industria y el sector salud.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            
+            <!-- Sistema ERP Clínica Médica (INTEGRAMED) -->
+            <div class="card p-6 text-left">
+                <div class="flex items-center gap-3 mb-3">
+                    <img src="img/logo-integramed.jpg" alt="Logo Integramed" class="w-12 h-12 object-cover rounded-lg border">
+                    <div>
+                        <h3 class="text-xl font-semibold text-blue-dark">Sistema ERP - Clínica Médica (Integramed)</h3>
+                        <span class="text-xs bg-blue-100 text-blue-800 font-semibold px-2 py-0.5 rounded">Proyecto Actual</span>
                     </div>
                 </div>
-                <div class="card p-6">
-                    <img src="img/Captura de pantalla 2025-06-28 004223.png" alt="[Image of Current Project 2]" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h3 class="text-xl font-semibold text-blue-dark mb-2">Pagina Web dedicada a Autos Alemanes</h3>
-                    <p class="text-gray-700 mb-4">Actualmente estoy trabajando en la estructura de la misma.</p>
-                    <div class="flex justify-center gap-4 mt-4">
-                        <a href="https://om1972.infy.uk/" class="btn-primary text-sm">Más Información</a>
-                        <a href="https://omarmendoza1972.github.io/autosalemanes/" target="_blank" class="btn-primary bg-gray-700 hover:bg-gray-800 text-sm flex items-center gap-2" aria-label="GitHub del Proyecto 2">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
+                <p class="text-gray-700 mb-4">Plataforma integral para clínicas: gestión de pacientes, médicos y secretarias, historias clínicas con exámenes y análisis, control de agendas y turnos en tiempo real, cobro de consultas y control de asistencia.</p>
+                <div class="flex justify-start gap-4 mt-4">
+                    <span class="text-xs bg-gray-100 text-gray-700 font-medium px-2.5 py-1 rounded">PHP / MySQL / Backend</span>
+                </div>
+            </div>
+
+            <!-- Sistema ERP Fábrica de Soja -->
+            <div class="card p-6 text-left">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xl"><i class="fas fa-industry"></i></div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-blue-dark">Sistema ERP - Fábrica de Soja</h3>
+                        <span class="text-xs bg-blue-100 text-blue-800 font-semibold px-2 py-0.5 rounded">Implementado 2026</span>
                     </div>
+                </div>
+                <p class="text-gray-700 mb-4">Sistema ERP completo: compras, cartera de clientes/proveedores, cuentas corrientes, caja, logística de entrega con seguimiento por mapa, stock, control de personal y estadísticas de consumo y ventas.</p>
+                <div class="flex justify-start gap-4 mt-4">
+                    <span class="text-xs bg-gray-100 text-gray-700 font-medium px-2.5 py-1 rounded">PHP / MySQL / Logística</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Experiencia Profesional Clave -->
+    <section id="experiencia" class="py-16 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-blue-dark mb-10">Trayectoria Profesional Destacada</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                <div class="card p-6">
+                    <h3 class="text-xl font-semibold text-blue-dark mb-1">Mendoza Plaza Shopping</h3>
+                    <p class="text-sm text-gray-500 mb-3">1997 - 2013 | Encargado de Logística y Compras</p>
+                    <p class="text-gray-700 text-sm">Control exhaustivo de stock, gestión de inventarios y dominio de sistemas corporativos de gestión (SAP y JDEdwards).</p>
+                </div>
+                <div class="card p-6">
+                    <h3 class="text-xl font-semibold text-blue-dark mb-1">Tarjeta Nevada</h3>
+                    <p class="text-sm text-gray-500 mb-3">2013 - 2016 | Tesorero y Coordinador</p>
+                    <p class="text-gray-700 text-sm">Supervisión de tesorería, control de recursos financieros, optimización operativa mediante metodología LEAN.</p>
+                </div>
+                <div class="card p-6">
+                    <h3 class="text-xl font-semibold text-blue-dark mb-1">La Campiña</h3>
+                    <p class="text-sm text-gray-500 mb-3">2019 - 2024 | Propietario</p>
+                    <p class="text-gray-700 text-sm">Gestión integral de negocio comercial, control de inventario, atención directa y resolución analítica de problemas operativos.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="proyectos-futuros" class="section-bg-blue py-16 px-4 rounded-xl m-4 shadow-lg">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold text-blue-dark mb-10">Proyectos en Curso</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="card p-6">
-                    <h3 class="text-xl font-semibold text-blue-dark mb-2">Web para negocios</h3>
-                    <img src="img/Captura de pantalla 2025-06-28 004911.png" alt="">
-                    <p class="text-gray-700 mb-4">Pagina para un negocio, en lo que se incluye catalogo, recetas y un proximo carrito de compras.</p>
-                    <div class="flex justify-center gap-4 mt-4">
-                        <a href="https://dieteticaunimev.infinityfreeapp.com/" class="btn-primary text-sm">Más Información</a>
-                        <a href="https://omarmendoza1972.github.io/dietetica/" target="_blank" class="btn-primary bg-gray-700 hover:bg-gray-800 text-sm flex items-center gap-2" aria-label="GitHub dieteticaunimev">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
-                    </div>
-                </div>
-                <div class="card p-6">
-                    <h3 class="text-xl font-semibold text-blue-dark mb-2">Web para negocios</h3>
-                    <img src="img/Captura de pantalla 2025-06-10 164531.png" alt="">
-                    <p class="text-gray-700 mb-4">Crear una pagina para un negocio, en lo que incluiria catalogo y carrito de compras.</p>
-                    <div class="flex justify-center gap-4 mt-4">
-                        <a href="https://solaresdemoni.great-site.net/" class="btn-primary text-sm">Más Información</a>
-                        <a href="https://omarmendoza1972.github.io/solaresdemoni/" target="_blank" class="btn-primary bg-gray-700 hover:bg-gray-800 text-sm flex items-center gap-2" aria-label="GitHub solaresdemoni">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
-                    </div>
-                </div>
-                <div class="card p-6">
-                    <h3 class="text-xl font-semibold text-blue-dark mb-2">App de registro personal</h3>
-                    <p class="text-gray-700 mb-4">Mi visión a largo plazo de este proyecto ambicioso es crear una App, que contenga toda la info personal.</p>
-                    <button class="btn-primary text-sm opacity-75 cursor-not-allowed">Próximamente</button>
-                </div>
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section-bg-blue py-16 px-4 rounded-xl m-4 shadow-lg">
+        <div class="container mx-auto text-center max-w-xl">
+            <h2 class="text-3xl font-bold text-blue-dark mb-4">Contacto Profesional</h2>
+            <p class="text-lg text-gray-700 mb-6">¿Interesado en colaborar en proyectos de desarrollo PHP/MySQL o sumar experiencia a tu equipo?</p>
+            <div class="flex justify-center gap-6 mb-8 text-3xl">
+                <a href="mailto:omarabudmza@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/omar-abud-1b747a136" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/OMARMENDOZA1972" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
             </div>
-        </div>
-    </section>
-
-    <section id="contacto" class="py-16 px-4">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold text-blue-dark mb-8">Contáctame</h2>
-            <p class="text-lg leading-relaxed mb-8">
-                ¿Interesado/a en colaborar o simplemente saludar? ¡No dudes en contactarme!
-            </p>
-            <div class="flex justify-center gap-6 mb-8">
-                <a href="mailto:oaamendoza1972@gmail.com" class="social-icon text-4xl hover:scale-110 transition-transform duration-300" aria-label="Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/omar-abud-1b747a136?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-icon text-4xl hover:scale-110 transition-transform duration-300" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/OMARMENDOZA1972" target="_blank" class="social-icon text-4xl hover:scale-110 transition-transform duration-300" aria-label="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.youtube.com/@omarmendoza1972" target="_blank" class="social-icon text-4xl hover:scale-110 transition-transform duration-300" aria-label="Youtube">
-                    <i class="fab fa-youtube"></i>
-                </a>
-                <a href="https://www.instagram.com/omarmendoza1972/?__pwa=1" target="_blank" class="social-icon text-4xl hover:scale-110 transition-transform duration-300" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.facebook.com/?ref=homescreenpwa" target="_blank" class="social-icon text-4xl hover:scale-110 transition-transform duration-300" aria-label="Facebook">
-                    <i class="fab fa-facebook"></i>
-                </a>
-            </div>
-            <p class="text-gray-600">También puedes rellenar el formulario de contacto (opcional):</p>
-            <form class="mt-8 max-w-lg mx-auto bg-white p-8 rounded-lg shadow-md">
-                <div class="mb-4">
-                    <input type="text" placeholder="Tu Nombre" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400">
-                </div>
-                <div class="mb-4">
-                    <input type="email" placeholder="Tu Email" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400">
-                </div>
-                <div class="mb-4">
-                    <textarea placeholder="Tu Mensaje" rows="5" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
-                </div>
-                <a href="mailto:oaamendoza1972@gmail.com?subject=Consulta%20desde%20tu%20CV%20Web&body=Hola%20Omar,">
-                    <button type="button" class="btn-primary w-full max-w-sm">
-                        Enviar Mensaje
-                    </button>
-                </a>
-            </form>
+            <a href="mailto:omarabudmza@gmail.com" class="btn-primary inline-block">Enviar un Correo</a>
         </div>
     </section>
 
     <footer class="header-bg-blue py-6 px-4 text-center text-white rounded-t-xl mt-4">
         <div class="container mx-auto">
-            <p> Omar Abud &copy; 2025. Todos los derechos reservados.</p>
+            <p>Omar Abud &copy; 2026. Todos los derechos reservados.</p>
         </div>
     </footer>
 
 </body>
 </html>
-
